@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BottomNavigationView menu item titles -->
+    <string name="time">Time</string>
+    <string name="info">Info</string>
+
+</resources>

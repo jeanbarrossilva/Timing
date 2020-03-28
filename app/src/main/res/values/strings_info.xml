@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="credits">Developed by @jeanbarrossilva</string>
+    <string name="availability_source_code">Available on GitHub</string>
+
+</resources>
