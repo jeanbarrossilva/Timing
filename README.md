@@ -3,7 +3,7 @@ Timing is a simple clock app for Android, designed for study purposes only.
 
 ## Functionalities
 ### Real-time time (what?) update
-The `TimeController` displays the time by calling `TimeModel` and its `time` function, which creates a `TimerTask` that updates the `hour`, `minute` and `second` values, obtained by creating a new instance of `Calendar`, as shown below.
+The [`TimeController`](https://github.com/jeanbarrossilva/Timing/blob/master/app/src/main/java/com/jeanbarrossilva/timing/time/TimeController.kt) displays the time by calling [`TimeModel`](https://github.com/jeanbarrossilva/Timing/blob/master/app/src/main/java/com/jeanbarrossilva/timing/time/TimeModel.kt) and its `time` function, which creates a `TimerTask` that updates the `hour`, `minute` and `second` values, obtained by creating a new instance of `Calendar`, as shown below.
 
 ```kotlin
 inline fun time(
